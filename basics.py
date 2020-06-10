@@ -40,7 +40,7 @@ print("sum of the array elements = ",c.sum()) # sum of the array elements
 
 #numpy array axis where (axis = 0 defines columns) and (axis = 1 defines rows)
 
-print("maximum value in the D array clumns object  = ",d.max(axis=0)) #finding max value in all columns of the object
+print("maximum value in the D array columns object  = ",d.max(axis=0)) #finding max value in all columns of the object
 print("minimum value in the D array  row object = ",d.min(axis=1)) #finding minimum value in all rows of the object
 print("sum of the array elements = ",d.sum(axis=0),d.sum(axis=1))
 
